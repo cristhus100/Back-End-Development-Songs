@@ -1,0 +1,18 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   235  100   133  100   102   116k  91644 --:--:-- --:--:-- --:--:--  229k
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.8 Python/3.14.2
+Date: Tue, 02 Jun 2026 23:54:40 GMT
+Content-Type: application/json
+Content-Length: 133
+Connection: close
+
+{
+  "artist": "Queen",
+  "genre": "Rock",
+  "id": "2",
+  "lyrics": "Updated lyrics here",
+  "title": "Bohemian Rhapsody (Updated)"
+}
+

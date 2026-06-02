@@ -1,0 +1,20 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   144  100   144    0     0   169k      0 --:--:-- --:--:-- --:--:--  140k
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.8 Python/3.14.2
+Date: Tue, 02 Jun 2026 12:13:02 GMT
+Content-Type: application/json
+Content-Length: 144
+Connection: close
+
+[
+  {
+    "artist": "Queen",
+    "genre": "Rock",
+    "id": "2",
+    "lyrics": "Is this the real life?",
+    "title": "Bohemian Rhapsody"
+  }
+]
+

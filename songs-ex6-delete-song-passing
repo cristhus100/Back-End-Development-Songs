@@ -1,0 +1,14 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    31  100    31    0     0  31031      0 --:--:-- --:--:-- --:--:-- 31000
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.8 Python/3.14.2
+Date: Tue, 02 Jun 2026 23:57:39 GMT
+Content-Type: application/json
+Content-Length: 31
+Connection: close
+
+{
+  "result": "Song deleted"
+}
+
