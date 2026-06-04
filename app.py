@@ -117,7 +117,7 @@ def update_song(song_id):
 
         songs_collection.update_one({"_id": ObjectId(song_id)}, {"$set": update_data})
         updated = songs_collection.find_one({"_id": ObjectId(song_id)})
-        return json_util.dumps(updated), 200, {'Content-Type': 'application/json'}
+        return json_util.dumps(updated), 201, {'Content-Type': 'application/json'}
     else:
         song = songs_db_memory.get(song_id)
         if not song:
@@ -127,7 +127,7 @@ def update_song(song_id):
             if field in data:
                 song[field] = data[field]
 
-        return jsonify(song), 200
+        return jsonify(song), 201
 
 
 @app.route('/song/<string:song_id>', methods=['DELETE'])
